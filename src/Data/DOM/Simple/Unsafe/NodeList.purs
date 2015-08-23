@@ -1,6 +1,7 @@
 module Data.DOM.Simple.Unsafe.NodeList where
 
 import DOM
+import DOM.Node.Types (NodeList())
 import Control.Monad.Eff
 
 import Data.DOM.Simple.Types

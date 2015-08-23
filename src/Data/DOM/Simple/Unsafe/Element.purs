@@ -3,6 +3,7 @@ module Data.DOM.Simple.Unsafe.Element where
 import Prelude
 
 import DOM
+import DOM.Node.Types (NodeList())
 import Control.Monad.Eff
 
 import Data.DOM.Simple.Types
